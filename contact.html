@@ -34,15 +34,16 @@
           <fieldset>
             <legend><h2>don't be shy</h2></legend>
             <p>first name</p>
-            <input type="text" name="firstname" size="40" />
+            <input id="firstname" type="text" name="firstname" size="40" />
             <p>last name</p>
-            <input type="text" name="lastname" size="40" />
+            <input id="lastname" type="text" name="lastname" size="40" />
             <p>email</p>
-            <input type="text" name="email" size="40" />
+            <input id="email" type="text" name="email" size="40" />
             <p>comments/concerns/queries/quips</p>
-            <textarea name="comments" rows="10" cols="40"></textarea>
+            <textarea id="comments" name="comments" rows="10" cols="40"></textarea>
           </fieldset>
-          <input type="submit" value="Submit" id="submit" />
+          <button type="button" onclick="myFunction()">Submit</button>
+          <p id="toAllCaps"></p>
         </form>
       </div>
     </div>
@@ -52,4 +53,5 @@
   <footer>
     <p>&copy; michael valier edwards, 2017</p>
   </footer>
+  <script type="text/javascript" src="script.js"></script>
 </body>
